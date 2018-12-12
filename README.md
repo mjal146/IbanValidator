@@ -1,6 +1,8 @@
 #ibanValidator
 ==============
+Install
 
+     Install-Package IbanValidator
 A small library used for IBAN and BBAN validation.
 
 Example usage:
