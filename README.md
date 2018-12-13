@@ -16,6 +16,14 @@ Example usage:
     {
         Console.WriteLine(iban.IsValid);
     }
+    
+    //TryParse and check is valid or not
+    Iban iban;
+    if (!Iban.TryParse("IRIR8601600000000008384", out iban)&&!iban.IsValid)
+    {
+        Console.WriteLine("iban Is Valid");
+    }
+    
 ```
 
 Acknowledgment
