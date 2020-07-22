@@ -1,9 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2019
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IbanValidator", "IbanValidator\IbanValidator.csproj", "{63401DB6-193C-47F3-9388-0A37273297BC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IbanValidator", "IbanValidator\IbanValidator.csproj", "{986E7B4D-5E85-4B38-827F-328A5FD90B58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{63401DB6-193C-47F3-9388-0A37273297BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{63401DB6-193C-47F3-9388-0A37273297BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{63401DB6-193C-47F3-9388-0A37273297BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{63401DB6-193C-47F3-9388-0A37273297BC}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {40CBDB45-BBF1-4708-AC0D-46004C6C9F7F}
+		{986E7B4D-5E85-4B38-827F-328A5FD90B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{986E7B4D-5E85-4B38-827F-328A5FD90B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{986E7B4D-5E85-4B38-827F-328A5FD90B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{986E7B4D-5E85-4B38-827F-328A5FD90B58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

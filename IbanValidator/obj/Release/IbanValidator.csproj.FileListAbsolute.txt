@@ -1,5 +1,0 @@
-C:\Users\akbari\Desktop\iban-validator-master\src\IbanValidator\IbanValidator\bin\Release\IbanValidator.dll
-C:\Users\akbari\Desktop\iban-validator-master\src\IbanValidator\IbanValidator\bin\Release\IbanValidator.pdb
-C:\Users\akbari\Desktop\iban-validator-master\src\IbanValidator\IbanValidator\obj\Release\IbanValidator.csproj.CoreCompileInputs.cache
-C:\Users\akbari\Desktop\iban-validator-master\src\IbanValidator\IbanValidator\obj\Release\IbanValidator.dll
-C:\Users\akbari\Desktop\iban-validator-master\src\IbanValidator\IbanValidator\obj\Release\IbanValidator.pdb
