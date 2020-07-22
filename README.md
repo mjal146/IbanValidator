@@ -5,7 +5,7 @@ Install
      Install-Package IbanValidator
 Or
 
-     <PackageReference Include="IbanValidator" Version="1.0.3" />
+     <PackageReference Include="IbanValidator" Version="2.0.0" />
 
 A small library used for IBAN and BBAN validation.
 
