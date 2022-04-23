@@ -1,5 +1,8 @@
 #ibanValidator
 ==============
+بررسی صحت شماره شبا و دریافت اطلاعات بانکی مرتبط###
+ 
+
 Install
 
      Install-Package IbanValidator
