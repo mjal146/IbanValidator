@@ -23,7 +23,7 @@ namespace IbanValidator.Specialized.Germany
         public static bool TryParse(string blz, out Bankleitzahl result)
         {
             result = null;
-            if (long.TryParse(blz, out long parsedBlz))
+            if (long.TryParse(blz, out var parsedBlz))
                 result = new Bankleitzahl(parsedBlz);
             return result != null;
         }

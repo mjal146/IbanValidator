@@ -1,17 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
-        <PackageVersion>2.0.0</PackageVersion>
+        <TargetFrameworks>net451;netstandard2.0</TargetFrameworks>
+        <PackageVersion>2.1.0</PackageVersion>
         <Title>IbanValidator</Title>
-        <Description>A small library used for IBAN and BBAN validation.</Description>
+        <Description>A small library used for IBAN and BBAN validation. 
+بررسی صحت شماره شبا 
+بررسی درستی شماره شبا
+دریافت اطلاعات بانکی از شماره شبا</Description>
         <Copyright>MIT</Copyright>
         <PackageProjectUrl>https://github.com/mjal146/IbanValidator</PackageProjectUrl>
         <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
         <RepositoryUrl>https://github.com/mjal146/IbanValidator</RepositoryUrl>
         <PackageTags>IBAN, BBAN, Sheba, Iban Validator</PackageTags>
-        <AssemblyVersion>2.0</AssemblyVersion>
-        <FileVersion>2.0</FileVersion>
+        <AssemblyVersion>2.1</AssemblyVersion>
+        <FileVersion>2.1</FileVersion>
     </PropertyGroup>
 
 </Project>

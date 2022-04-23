@@ -60,14 +60,14 @@ namespace IbanValidator
             var wholeString = string.Concat(Bban, CountryCode, Checksum.ToString(CultureInfo.InvariantCulture).PadLeft(ChecksumLength, '0'));
 
             var sb = new StringBuilder();
-            for (int i = 0; i < wholeString.Length; ++i)
+            for (var i = 0; i < wholeString.Length; ++i)
 #if NET20
                 sb.Append(CharExtensions.GetNumericValue(wholeString[i]));
 #else
                 sb.Append(wholeString[i].GetNumericValue());
 #endif
 
-            string valuedString = sb.ToString();
+            var valuedString = sb.ToString();
 
 #if !NET40
             // Little workaround for not having a BigInteger class.
@@ -118,7 +118,7 @@ namespace IbanValidator
             bban = bban.Trim();
             if (bban.Length > MaxBbanLength)
                 return false;
-            for (int i = 0; i < bban.Length; ++i)
+            for (var i = 0; i < bban.Length; ++i)
             {
 #if NET20
                 if (!char.IsDigit(bban[i]) && !CharExtensions.IsValidChar(bban[i]))
@@ -216,7 +216,7 @@ namespace IbanValidator
             var sb = new StringBuilder(34);
             sb.Append(CountryCode);
             sb.Append(Checksum.ToString(CultureInfo.InvariantCulture).PadLeft(ChecksumLength, '0'));
-            for (int i = 0; i < Bban.Length; ++i)
+            for (var i = 0; i < Bban.Length; ++i)
             {
                 if (i % 4 == 0)
                     sb.Append(' ');

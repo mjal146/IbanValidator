@@ -8,7 +8,7 @@ namespace IbanValidator.Specialized.Iran
     /// </summary>
     public static class IranBankInformationProvider
     {
-        private static List<BankInformation> _banks = new List<BankInformation>
+        private static readonly List<BankInformation> Banks = new List<BankInformation>
             {
                 new BankInformation
                 {
@@ -273,6 +273,30 @@ namespace IbanValidator.Specialized.Iran
                     PersianName = "بانک ایران و ونزوئلا",
                     Code = "095",
                     AccountNumberAvailable = false
+                },
+                new BankInformation
+                {
+                    NickName = "middle-east",
+                    Name = "Middle East Bank",
+                    PersianName = "بانک خاورمیانه",
+                    Code = "078",
+                    AccountNumberAvailable = false
+                },
+                new BankInformation
+                {
+                    NickName = "melal",
+                    Name = "Credit Institution of Melal",
+                    PersianName = "موسسه اعتباری ملل",
+                    Code = "075",
+                    AccountNumberAvailable = false
+                },
+                new BankInformation
+                {
+                    NickName = "noor",
+                    Name = "Credit Institution of Noor",
+                    PersianName = "موسسه اعتباری نور",
+                    Code = "080",
+                    AccountNumberAvailable = false
                 }
             };
 
@@ -283,7 +307,7 @@ namespace IbanValidator.Specialized.Iran
         /// <returns></returns>
         public static BankInformation GetBankInformation(this Iban iban)
         {
-            return _banks.FirstOrDefault(a => a.Code == iban.Bban.Substring(0, 3));
+            return Banks.FirstOrDefault(a => a.Code == iban.Bban.Substring(0, 3));
         }
     }
 }
