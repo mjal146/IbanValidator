@@ -297,6 +297,14 @@ namespace IbanValidator.Specialized.Iran
                     PersianName = "موسسه اعتباری نور",
                     Code = "080",
                     AccountNumberAvailable = false
+                },
+                new BankInformation
+                {
+                    NickName = "middle-east-bank",
+                    Name = "Middle East Bank",
+                    PersianName = "بانک خاورمیانه",
+                    Code = "078",
+                    AccountNumberAvailable = false
                 }
             };
 
